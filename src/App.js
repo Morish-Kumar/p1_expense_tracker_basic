@@ -23,6 +23,12 @@ function App() {
       amount: 450,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: "e5",
+      title: "Bench",
+      amount: 230,
+      date: new Date(2002, 2, 1),
+    },
   ];
 
   /* 
@@ -52,6 +58,11 @@ function App() {
         title={expenses[3].title}
         amount={expenses[3].amount}
         date={expenses[3].date}
+      ></ExpenseItem>
+      <ExpenseItem
+        title={expenses[4].title}
+        amount={expenses[4].amount}
+        date={expenses[4].date}
       ></ExpenseItem>
     </div>
   );
